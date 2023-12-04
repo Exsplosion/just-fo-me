@@ -438,7 +438,10 @@ body {
         width: 300px;
     }
     @media (max-width: 320px) {
-        height: 6489px;
+        margin: 0;
+        height: 30px;
+        display: flex;
+        justify-content: center;
     }
 }
 .wo {
@@ -447,7 +450,9 @@ body {
         margin:0 0 0 5px;
     }
     @media (max-width: 320px) {
-        height: 6489px;
+        width: 9.5px;
+        height: 9.5px;
+        margin-top: 23px;
     } 
 }
 .w {
@@ -456,7 +461,9 @@ body {
         margin:0 0 0 5px;
     }
     @media (max-width: 320px) {
-        height: 6489px;
+        width: 9.5px;
+        height: 9.5px;
+        margin-top: 23px;
     }
 }
 .download-block__dv {
@@ -468,7 +475,9 @@ body {
         margin: 0 0 0 70px;
     }
     @media (max-width: 320px) {
-        height: 6489px;
+        width: 280px;
+        height: 204px;
+        margin: 94px  0 0 18px;
     }
 }
 .download-block__dv_bg {
@@ -479,6 +488,11 @@ body {
     height: 70px;
     margin-bottom: 7px;
     text-align: center;
+    @media (max-width: 320px) {
+        font-size: 18px;
+        font-weight: 500;
+        width: 280px;
+    }
 }
 .download-block__dv_sm {
     color: #000000;
@@ -486,6 +500,10 @@ body {
     font-weight: 700;
     margin: 0;
     margin-bottom: 48px;
+    @media (max-width: 320px) {
+        font-size: 13px;
+        font-weight: 700;
+    } 
 }
 .download-block__dv_bt {
     width: 370px;
@@ -496,6 +514,10 @@ body {
     position: relative;
     font-weight: 900;
     font-size: 24px;
+    @media (max-width: 320px) {
+        width: 279px;
+        height: 80px;
+    } 
 }
 .footer-blonk__dv {
     background-color: #353C65;
@@ -511,22 +533,39 @@ body {
         margin-left: 0px;
     }
     @media (max-width: 320px) {
-        height: 6489px;
+        width: 320px;
+        height: 450px;
     }
 }
 .footer-blonk__dv_sdv {
-    flex-direction: row;
+    flex-direction: column;
     width: 1511px;
     gap: 20px;
+    @media (max-width: 320px) {
+        width: 320px;
+        height: 90px;
+    }
 }
 .footer-blonk__dv_sdv_xsdv {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 370px;
+    @media (max-width: 320px) {
+        width: 280px;
+        height: 102px;
+    }
+}
+.footer-blonk__dv_sdv_xsdv:nth-child(3) {
+    @media (max-width: 320px) {    
+        margin-top: 59px;
+    }    
 }
 .footer-blonk__dv_sdv_xsdv:nth-child(2) {
     margin-top: 0px;
+    @media (max-width: 320px) {    
+        margin-top: 69px;
+    }  
 }
 .footer-blonk__fdv {
     background-color: #2C3154;
@@ -539,17 +578,26 @@ body {
         margin-left: 0px;
     }
     @media (max-width: 320px) {
-        height: 6489px;
+        width: 320px;
+        height: 90px;
     }
 }
 .footer-blonk__dv_sdv_xsdv_bg {
     font-size: 18px;
     font-weight: 700;
+    @media (max-width: 320px) {
+        font-size: 14px;
+        font-weight: 700;
+    }
 }
 .footer-blonk__dv_sdv_xsdv_sm {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
+    @media (max-width: 320px) {
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
 .iconf {
     margin-right: 26px;
