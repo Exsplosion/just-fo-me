@@ -1,0 +1,20 @@
+@mixin color_txt {
+    color: #FFFFFF;
+}
+@mixin bg_orang {
+    background-color: #FF4343;
+}
+@mixin straight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-block__dv, .header-block__dv_sdv, .head-block__dv, .features-block__dv, .ot-block__dv, .testimonials-block__dv, .testimonials-block__dv_txt {
+    @include straight();
+}
+.head-block__dv_bt {
+    @include bg_orang();
+}
+.header-block__dv_txt, .head-block__dv_bt, .head-block__dv_bg, .head-block__dv_sm {
+    @include color_txt();
+}
